@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34330.188
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{D2ABAB84-BF74-430A-B69E-9DC6D40DDA17}") = "MultiDimensionalNorthwind", "MultiDimensionalNorthwind\MultiDimensionalNorthwind.dwproj", "{34D227A4-F158-4224-934F-65F03A562F30}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Development|Default = Development|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{34D227A4-F158-4224-934F-65F03A562F30}.Development|Default.ActiveCfg = Development
+		{34D227A4-F158-4224-934F-65F03A562F30}.Development|Default.Build.0 = Development
+		{34D227A4-F158-4224-934F-65F03A562F30}.Development|Default.Deploy.0 = Development
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CFB1FD64-3FC9-40EE-8988-670B3B34A714}
+	EndGlobalSection
+EndGlobal
