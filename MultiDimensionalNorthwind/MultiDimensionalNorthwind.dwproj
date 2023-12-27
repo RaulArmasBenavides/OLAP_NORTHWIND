@@ -27,6 +27,16 @@
         </ProjectItem>
       </Dependencies>
     </ProjectItem>
+    <ProjectItem>
+      <Name>ComportamientoCliente.cube</Name>
+      <FullPath>ComportamientoCliente.cube</FullPath>
+      <Dependencies>
+        <ProjectItem>
+          <Name>ComportamientoCliente.partitions</Name>
+          <FullPath>ComportamientoCliente.partitions</FullPath>
+        </ProjectItem>
+      </Dependencies>
+    </ProjectItem>
   </Cubes>
   <Dimensions>
     <ProjectItem>

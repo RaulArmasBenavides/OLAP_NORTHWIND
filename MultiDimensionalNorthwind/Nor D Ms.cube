@@ -1,4 +1,4 @@
-﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="1360292f-0eed-4649-b0ca-70d71692a7f4" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="5f75d70c-29b9-4dd9-8913-c1e3d37c5f7c" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
   <ID>Nor D Ms</ID>
   <Name>Nor D Ms</Name>
   <CreatedTimestamp>0001-01-01T05:00:00Z</CreatedTimestamp>
@@ -254,72 +254,81 @@
   <LastProcessed>0001-01-01T05:00:00Z</LastProcessed>
   <State>Unprocessed</State>
   <Dimensions>
-    <Dimension dwd:design-time-name="ffae53c8-d2a2-4e3b-80ee-e21692a7400f">
+    <Dimension dwd:design-time-name="59dac98c-6b42-4753-a6f2-72b88fc5ac50">
       <ID>Dimproducto</ID>
       <Name>Dimproducto</Name>
       <DimensionID>Dimproducto</DimensionID>
       <Attributes>
-        <Attribute dwd:design-time-name="e64c0d57-b37c-4c44-8005-d0f0e6de7548">
+        <Attribute dwd:design-time-name="9f1912ae-1cdf-4ff5-b03d-ab25e9311aff">
           <AttributeID>Idproducto</AttributeID>
         </Attribute>
       </Attributes>
     </Dimension>
-    <Dimension dwd:design-time-name="5d0a63b1-2499-48b1-b2de-6c01427c0676">
+    <Dimension dwd:design-time-name="44d0b466-5821-4c39-a538-424bd7d57e47">
       <ID>Dimempleado</ID>
       <Name>Dimempleado</Name>
       <DimensionID>Dimempleado</DimensionID>
       <Attributes>
-        <Attribute dwd:design-time-name="10a279c8-8bb7-401d-ac79-5fdb2ebdb490">
+        <Attribute dwd:design-time-name="388d2372-95c8-4700-bcb9-1626570ff733">
           <AttributeID>Idempleado</AttributeID>
         </Attribute>
       </Attributes>
     </Dimension>
-    <Dimension dwd:design-time-name="f2974ad7-bf77-46d4-8879-606efb8bf251">
+    <Dimension dwd:design-time-name="e7c0a6cb-2b06-4706-9de3-0dd2840ba40d">
       <ID>Dimcliente</ID>
       <Name>Dimcliente</Name>
       <DimensionID>Dimcliente</DimensionID>
       <Attributes>
-        <Attribute dwd:design-time-name="43fafb23-1693-4b0f-b16d-873d9e2b4148">
+        <Attribute dwd:design-time-name="b67e559e-84f0-42c7-ba45-d74df118345d">
           <AttributeID>Idcliente</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="ecbae955-060b-4c05-9a95-9e0266c56fa7">
+          <AttributeID>City</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="64751ca8-33a8-4ebe-bfd0-9e0ab493e911">
+          <AttributeID>Region</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="02b37fbc-8225-42e6-b5c3-e4c8e8d62ba2">
+          <AttributeID>Country</AttributeID>
         </Attribute>
       </Attributes>
     </Dimension>
-    <Dimension dwd:design-time-name="ed96cad7-ec67-461a-add8-8a112307d0a0">
+    <Dimension dwd:design-time-name="eb872fd4-7b58-439a-8fba-de8c7964ae28">
       <ID>Dimtransportista</ID>
       <Name>Dimtransportista</Name>
       <DimensionID>Dimtransportista</DimensionID>
       <Attributes>
-        <Attribute dwd:design-time-name="4d824b3a-3e10-4a92-a6ff-1e48aa095f3a">
+        <Attribute dwd:design-time-name="4fd6f620-0ead-4e60-b0ed-f9eb50be8490">
           <AttributeID>Idtransportista</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="562d39fd-d1f9-4b64-beea-127fba6aaa18">
+        <Attribute dwd:design-time-name="061de37a-1e01-4db7-95aa-1ee93757b58b">
           <AttributeID>Companyname</AttributeID>
         </Attribute>
       </Attributes>
     </Dimension>
-    <Dimension dwd:design-time-name="b2beaab7-0a42-43d9-8d8b-b6376f0d18c0">
+    <Dimension dwd:design-time-name="c00df700-da37-4d04-bb2b-ec5b80c90059">
       <ID>Dimtiempo</ID>
       <Name>Dimtiempo</Name>
       <DimensionID>Dimtiempo</DimensionID>
       <Attributes>
-        <Attribute dwd:design-time-name="2a3870da-51bc-40ff-946d-60b18adbbef6">
+        <Attribute dwd:design-time-name="e903b0ff-e171-4a5c-8e7f-5ec20279f590">
           <AttributeID>Idtiempo</AttributeID>
         </Attribute>
       </Attributes>
     </Dimension>
-    <Dimension dwd:design-time-name="2363b96b-d39e-44cf-b0e3-7dab8db39d0e">
+    <Dimension dwd:design-time-name="43a3b0ee-6892-4e72-8575-be46d006671a">
       <ID>Dimproveedor</ID>
       <Name>Dimproveedor</Name>
       <DimensionID>Dimproveedor</DimensionID>
       <Attributes>
-        <Attribute dwd:design-time-name="efccfe55-f054-41fd-9098-aae5670061c9">
+        <Attribute dwd:design-time-name="018d9af3-f721-4ba3-a725-8b3d47750710">
           <AttributeID>Idproveedor</AttributeID>
         </Attribute>
       </Attributes>
     </Dimension>
   </Dimensions>
   <MeasureGroups>
-    <MeasureGroup dwd:design-time-name="46753c6e-6ff2-4e51-ac17-6d58deefc218">
+    <MeasureGroup dwd:design-time-name="bdc4417f-fcf8-49ea-b893-20587af8f35a">
       <ID>Hventa</ID>
       <Name>Hventa</Name>
       <CreatedTimestamp>0001-01-01T05:00:00Z</CreatedTimestamp>
@@ -327,47 +336,47 @@
       <LastProcessed>0001-01-01T05:00:00Z</LastProcessed>
       <State>Unprocessed</State>
       <Measures>
-        <Measure dwd:design-time-name="76dc9b61-54ea-44e5-8792-95bbafd7c4c5">
+        <Measure dwd:design-time-name="03e17440-6c86-43db-b8f3-21da346ffdb8">
           <ID>Mventa</ID>
           <Name>Mventa</Name>
-          <Source dwd:design-time-name="97f1d607-9006-49d6-b1be-6f0f7ce81c69">
+          <Source dwd:design-time-name="a3ab84c9-1e19-410c-a30c-c2376ea0a1d4">
             <DataType>Double</DataType>
-            <Source xsi:type="ColumnBinding" dwd:design-time-name="74a3d7de-6a0e-4c88-bce7-027d83d4ff01">
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="83d9c529-17a1-4413-9304-5846989e2cc4">
               <TableID>dbo_hventa</TableID>
               <ColumnID>mventa</ColumnID>
             </Source>
           </Source>
         </Measure>
-        <Measure dwd:design-time-name="d52c8745-728c-49a5-8e8c-9c3b3f447ee6">
+        <Measure dwd:design-time-name="06eba854-57d8-4966-9a70-cb4dce357c3c">
           <ID>Cantidad</ID>
           <Name>Cantidad</Name>
-          <Source dwd:design-time-name="f44a74bc-cf06-4ec6-9dc5-a265fa828604">
+          <Source dwd:design-time-name="6af200ae-af04-4c53-b7c6-7989f5fd4632">
             <DataType>Integer</DataType>
-            <Source xsi:type="ColumnBinding" dwd:design-time-name="aa34b8ee-b837-4aff-b7ed-a832a69c8579">
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="5e2033d3-96b6-43b6-9908-c345970ce61e">
               <TableID>dbo_hventa</TableID>
               <ColumnID>cantidad</ColumnID>
             </Source>
           </Source>
         </Measure>
-        <Measure dwd:design-time-name="b598120c-20ac-46e6-bbca-853181422f98">
+        <Measure dwd:design-time-name="480e3da8-6b16-42bb-b1a3-2d8b44fd6a8e">
           <ID>Descto</ID>
           <Name>Descto</Name>
-          <Source dwd:design-time-name="d05690dd-8e53-46a3-a4a1-27c91596b2d2">
+          <Source dwd:design-time-name="9ce7363d-bef8-4bde-acf4-7a516c6233a4">
             <DataType>Double</DataType>
-            <Source xsi:type="ColumnBinding" dwd:design-time-name="ee4aa780-cb6b-448b-9690-ad204fb84daa">
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="83da3063-e9d2-4419-b3f7-d2f5d5909a12">
               <TableID>dbo_hventa</TableID>
               <ColumnID>descto</ColumnID>
             </Source>
           </Source>
         </Measure>
-        <Measure dwd:design-time-name="e4a61d6f-da9c-4783-a3fb-be277d92d27e">
+        <Measure dwd:design-time-name="296bf3bf-1fb0-4b02-a5c3-20e7f106dce5">
           <ID>Hventa Count</ID>
           <Name>Hventa Count</Name>
           <AggregateFunction>Count</AggregateFunction>
-          <Source dwd:design-time-name="c321e1ca-7ebc-44cf-a4eb-8e63d82335d7">
+          <Source dwd:design-time-name="07265872-f2e4-4399-9e15-07ac70f35b2f">
             <DataType>Integer</DataType>
             <DataSize>4</DataSize>
-            <Source xsi:type="RowBinding" dwd:design-time-name="f40bebaf-66e9-4459-a67f-75213e0eab33">
+            <Source xsi:type="RowBinding" dwd:design-time-name="da5a457d-40a0-4446-af5e-052ada96f2ff">
               <TableID>dbo_hventa</TableID>
             </Source>
           </Source>
@@ -376,15 +385,15 @@
       <StorageMode>Molap</StorageMode>
       <ProcessingMode>Regular</ProcessingMode>
       <Dimensions>
-        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="22d6df72-e48b-4116-b352-4dc65c3d449d">
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="498ee23d-8d06-4910-8268-f6d1236688f0">
           <CubeDimensionID>Dimproducto</CubeDimensionID>
           <Attributes>
-            <Attribute dwd:design-time-name="49f9bc18-a527-4304-b2ce-d13eb7a869c4">
+            <Attribute dwd:design-time-name="7023b4cf-9940-4f9c-b803-3e5b29030e51">
               <AttributeID>Idproducto</AttributeID>
               <KeyColumns>
-                <KeyColumn dwd:design-time-name="d191424d-ed31-44fd-9d6b-354993692918">
+                <KeyColumn dwd:design-time-name="6647c25e-32a9-4aaa-ac91-59aa9c4246aa">
                   <DataType>Integer</DataType>
-                  <Source xsi:type="ColumnBinding" dwd:design-time-name="e8d81f73-e7e4-41e7-9d60-df7342306836">
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="e637fdd5-5a2a-4a1a-9b4c-1798a47b3cb8">
                     <TableID>dbo_hventa</TableID>
                     <ColumnID>idproducto</ColumnID>
                   </Source>
@@ -394,15 +403,15 @@
             </Attribute>
           </Attributes>
         </Dimension>
-        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="095a2959-6e4b-421c-9269-82dd07cc06d1">
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="75350e21-8c60-4bd8-bfd8-196a1ed2ef35">
           <CubeDimensionID>Dimempleado</CubeDimensionID>
           <Attributes>
-            <Attribute dwd:design-time-name="cd162aa5-c14b-4416-93e6-ee927a036071">
+            <Attribute dwd:design-time-name="96071f51-feef-4d0e-a651-ae749e4772fd">
               <AttributeID>Idempleado</AttributeID>
               <KeyColumns>
-                <KeyColumn dwd:design-time-name="9f4ad67e-6a89-4fdf-9236-51b65f4aa35b">
+                <KeyColumn dwd:design-time-name="cb0125f7-9836-4f02-973c-f859c3056b9a">
                   <DataType>Integer</DataType>
-                  <Source xsi:type="ColumnBinding" dwd:design-time-name="57517d30-df6f-471d-9d42-a24922fb346e">
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="ad24a181-6371-433d-ae04-74f5af1b201f">
                     <TableID>dbo_hventa</TableID>
                     <ColumnID>idempleado</ColumnID>
                   </Source>
@@ -412,15 +421,15 @@
             </Attribute>
           </Attributes>
         </Dimension>
-        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="ad3eb264-9a30-404d-bbc5-b2e227a70a36">
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="8620cdfa-2893-4d00-86c3-ea59aca59d4d">
           <CubeDimensionID>Dimcliente</CubeDimensionID>
           <Attributes>
-            <Attribute dwd:design-time-name="f327bc7c-24e9-43ed-9a41-161d22bd0349">
+            <Attribute dwd:design-time-name="2af405de-fe3c-46a2-b179-1e0fb810650d">
               <AttributeID>Idcliente</AttributeID>
               <KeyColumns>
-                <KeyColumn dwd:design-time-name="12f75e2a-1376-4e9c-8b13-a7a222655523">
+                <KeyColumn dwd:design-time-name="943cf522-8ff1-4bcf-a3d7-a7296e254118">
                   <DataType>Integer</DataType>
-                  <Source xsi:type="ColumnBinding" dwd:design-time-name="1afaee98-c013-4794-a4d9-3e054cf2906c">
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="472bbf4c-63d2-489f-a480-43becc1e20fb">
                     <TableID>dbo_hventa</TableID>
                     <ColumnID>idcliente</ColumnID>
                   </Source>
@@ -430,15 +439,15 @@
             </Attribute>
           </Attributes>
         </Dimension>
-        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="3d9ca932-26a8-4e17-8bdf-2fe3d001167b">
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="29be91c0-d355-4d83-be57-05cbb176fb4f">
           <CubeDimensionID>Dimtransportista</CubeDimensionID>
           <Attributes>
-            <Attribute dwd:design-time-name="666d7c9c-60c1-4eb5-a96e-64b018429b3f">
+            <Attribute dwd:design-time-name="92ef69d5-50de-4fdd-96bf-196f5070041a">
               <AttributeID>Idtransportista</AttributeID>
               <KeyColumns>
-                <KeyColumn dwd:design-time-name="d68a52d5-80bb-427f-9b9f-597f62969ad4">
+                <KeyColumn dwd:design-time-name="e35fb68d-1e53-41dc-a0fb-c82d7bf3563c">
                   <DataType>Integer</DataType>
-                  <Source xsi:type="ColumnBinding" dwd:design-time-name="39fcd05a-f144-4466-8aa1-1ce234be4058">
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="31f90482-64e2-429b-80f0-2dc9861edd8e">
                     <TableID>dbo_hventa</TableID>
                     <ColumnID>idtransportista</ColumnID>
                   </Source>
@@ -448,15 +457,15 @@
             </Attribute>
           </Attributes>
         </Dimension>
-        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="05dfb362-9569-49f0-a21b-0c072fc27e8c">
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="c689f43b-feff-4dfa-a400-1c4775755fd7">
           <CubeDimensionID>Dimtiempo</CubeDimensionID>
           <Attributes>
-            <Attribute dwd:design-time-name="bde669c6-1171-4d90-b601-8ae94b9c193f">
+            <Attribute dwd:design-time-name="9fd42257-aac8-4c0c-80c7-93e56d4e7c1a">
               <AttributeID>Idtiempo</AttributeID>
               <KeyColumns>
-                <KeyColumn dwd:design-time-name="311eae1a-e3d2-4d7b-b051-3b487f4e3e6c">
+                <KeyColumn dwd:design-time-name="6d4303df-853e-476c-a451-fd4f0ef602a8">
                   <DataType>Integer</DataType>
-                  <Source xsi:type="ColumnBinding" dwd:design-time-name="eab2d0ad-0f36-4e37-a0cd-ad0f39ff50a9">
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="2bc5acc9-289f-442a-bc13-a5075f6e28cf">
                     <TableID>dbo_hventa</TableID>
                     <ColumnID>idtiempo</ColumnID>
                   </Source>
@@ -466,15 +475,15 @@
             </Attribute>
           </Attributes>
         </Dimension>
-        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="d4878a2f-23f7-4236-9591-fa2c30cd208c">
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="66b41d47-9054-4739-a60f-07a77eb0bb47">
           <CubeDimensionID>Dimproveedor</CubeDimensionID>
           <Attributes>
-            <Attribute dwd:design-time-name="0ecc490d-d8a4-4538-92b5-b67d95e00414">
+            <Attribute dwd:design-time-name="f208fc69-c04b-4508-998a-741acb466d86">
               <AttributeID>Idproveedor</AttributeID>
               <KeyColumns>
-                <KeyColumn dwd:design-time-name="0aa3fb33-4498-4a19-b7af-6331b6ec640a">
+                <KeyColumn dwd:design-time-name="100ecc82-bd29-4f7d-8362-e87aa41b5438">
                   <DataType>Integer</DataType>
-                  <Source xsi:type="ColumnBinding" dwd:design-time-name="ea00eef2-71ca-48e4-a548-0569365162f6">
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="17044ed8-6e98-4d92-b745-99499562a1cf">
                     <TableID>dbo_hventa</TableID>
                     <ColumnID>idproveedor</ColumnID>
                   </Source>
@@ -488,7 +497,7 @@
       <Partitions />
     </MeasureGroup>
   </MeasureGroups>
-  <Source dwd:design-time-name="9b9a57bd-7f18-4e88-92ec-366894cf3a0a">
+  <Source dwd:design-time-name="b1a17b40-33ab-4a37-8609-9b21b8072a66">
     <DataSourceViewID>Nor D Ms</DataSourceViewID>
   </Source>
 </Cube>

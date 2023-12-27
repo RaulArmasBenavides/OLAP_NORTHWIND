@@ -59,6 +59,19 @@
           </MeasureGroup>
         </MeasureGroups>
       </Cube>
+      <Cube>
+        <ID>Nor D Ms 1 1</ID>
+        <MeasureGroups>
+          <MeasureGroup>
+            <ID>Hventa</ID>
+            <Partitions>
+              <Partition>
+                <ID>Hventa</ID>
+              </Partition>
+            </Partitions>
+          </MeasureGroup>
+        </MeasureGroups>
+      </Cube>
     </Cubes>
     <DataSourceImpersonationInfo>
       <ImpersonationMode xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">Default</ImpersonationMode>
