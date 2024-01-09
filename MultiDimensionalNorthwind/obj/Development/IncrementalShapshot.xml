@@ -19,7 +19,7 @@
     <ObjectSnapshots>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.RelationalDataSource</Type>
-        <TimeStamp>5xrxJ4Y54Tv/qqpRLjyNQG2wNf4=27/12/2023 00:59:1327/12/2023 00:21:07</TimeStamp>
+        <TimeStamp>Q/x50Yrabssj5yv8jrvdY5lSf7E=2/1/2024 19:08:0127/12/2023 00:21:07</TimeStamp>
         <ID>
           <String>Nor D Ms</String>
         </ID>
@@ -40,7 +40,7 @@
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>fTxwrMe5j9nt7u4eSzktVLf/j9o=27/12/2023 00:21:4827/12/2023 00:21:48</TimeStamp>
+        <TimeStamp>1atV1B8HGKzjCg13suARpj1e1AY=2/1/2024 19:00:2727/12/2023 00:21:48</TimeStamp>
         <ID>
           <String>Dimempleado</String>
         </ID>
@@ -75,7 +75,7 @@
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Cube</Type>
-        <TimeStamp>mWXqHOT60HizKiSIhTcWAetMISM=27/12/2023 01:41:5527/12/2023 00:21:48LXs1XG3kLErbZ1JPnSeGXYj/4As=27/12/2023 00:21:4827/12/2023 00:21:48</TimeStamp>
+        <TimeStamp>zRuzfPUYTvHmGAiKz/qPuFYE8O8=2/1/2024 19:00:2727/12/2023 00:21:48LXs1XG3kLErbZ1JPnSeGXYj/4As=27/12/2023 00:21:4827/12/2023 00:21:48</TimeStamp>
         <ID>
           <String>Nor D Ms</String>
         </ID>
@@ -106,5 +106,5 @@
   </Snapshot>
   <AssemblyLocations />
   <ProcessingComplete>true</ProcessingComplete>
-  <LastDeployed>2023-12-27T06:42:24.11Z</LastDeployed>
+  <LastDeployed>2024-01-09T07:03:02.826667Z</LastDeployed>
 </DeploymentSnapshot>
