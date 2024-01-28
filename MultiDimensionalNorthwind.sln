@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34330.188
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{D2ABAB84-BF74-430A-B69E-9DC6D40DDA17}") = "MultiDimensionalNorthwind", "MultiDimensionalNorthwind\MultiDimensionalNorthwind.dwproj", "{34D227A4-F158-4224-934F-65F03A562F30}"
+Project("{D2ABAB84-BF74-430A-B69E-9DC6D40DDA17}") = "OLAP_NORTHWIND", "MultiDimensionalNorthwind\OLAP_NORTHWIND.dwproj", "{34D227A4-F158-4224-934F-65F03A562F30}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
